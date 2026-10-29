@@ -1,0 +1,78 @@
+# Project corrections applied after the pinned upstream dictionaries.
+# One reading only; these are search spellings, not a complete place-name census.
+# Regenerate the four embedded tables with go generate after editing this file.
+#
+# Place-name references: upstream pinyin-pro dict2, phrase-pinyin-data,
+# and public character/place-name sources linked below.
+# 乐亭: https://www.nanjing.gov.cn/hdjl/hygq/202209/t20220901_3687711.html
+# 𬮤: https://www.charactercodes.net/2CBA4
+# 𰝟: https://www.cns11643.gov.tw/wordView.jsp?ID=287578
+# Use the full county name where it disambiguates an ordinary word.
+乐亭: lao ting
+乐亭县: lao ting xian
+单县: shan xian
+大城: da cheng
+大城县: dai cheng xian
+南乐: nan le
+南乐县: nan le xian
+长子县: chang zi xian
+繁峙: fan shi
+繁峙县: fan shi xian
+洪洞: hong tong
+洪洞县: hong tong xian
+浚县: xun xian
+曾都: zeng du
+曾都区: zeng du qu
+万柏林: wan bai lin
+万柏林区: wan bai lin qu
+解州: xie zhou
+解池: xie chi
+荥经: ying jing
+荥经县: ying jing xian
+乐陵: le ling
+乐陵市: le ling shi
+牟平: mu ping
+牟平区: mu ping qu
+中牟: zhong mou
+中牟县: zhong mou xian
+# In an unqualified search name, prefer the place/name reading of 朝阳.
+# The ordinary economic term retains zhao in the longer phrase below.
+朝阳: chao yang
+朝阳产业: zhao yang chan ye
+处长地: chu chang di
+漯河: luo he
+漯河市: luo he shi
+马尾: ma wei
+马尾巴: ma wei ba
+浪卡子: lang ka zi
+卡子镇: ka zi zhen
+卡子湾: ka zi wan
+卡子滩: ka zi tan
+𬮤山: ge shan
+𨻧隍: liu huang
+𰝟渡: xian du
+# Prefer the common adjectival reading when 长 is outside a known phrase.
+# pinyin-pro/lib/data/dict1-pinyin.ts also puts chang first.
+长: chang
+長: chang
+# 𠮷 is the variant of 吉 used in personal/proper names (e.g. 𠮷野家).
+# https://www.zdic.net/hans/𠮷
+𠮷: ji
+# Known personal/proper names supplement the general phrase dictionary.
+单田芳: shan tian fang
+曾国藩: zeng guo fan
+华罗庚: hua luo geng
+贾平凹: jia ping wa
+张柏芝: zhang bo zhi
+阿房宫: e pang gong
+雪佛兰: xue fu lan
+# Retain these phrase-pinyin-data readings where the supplemental pinyin-pro
+# tables select a different meaning or contain a truncated syllable.
+数数: shu shu
+枝大于本: zhi da yu ben
+富商巨贾: fu shang ju gu
+豪商巨贾: hao shang ju gu
+箪食壶浆: dan si hu jiang
+飞将数奇: fei jiang shu ji
+素朴: su pu
+雨露: yu lu
